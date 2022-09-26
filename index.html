@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-up form</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <aside class="hero">
+        <div class="logo-container">
+            <img src="/img/odin-lined.png" alt="TOP logo">
+            <p>ODIN</p>
+        </div>
+        <p class="img-credit">
+            Photo by
+            <a
+                href="https://unsplash.com/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Halie
+                West</a>
+            on <a
+                href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        </p>
+    </aside>
+    <main>
+        <section>
+            <p>
+                This is not a real online service! You know you need
+                something like this in your life to help you realise your
+                deepest dreams. Sign up <em>now</em> to get started.
+            </p>
+            <p>You <em>know</em> you want to.</p>
+        </section>
+
+        <form action="" id="sign-up-form">
+            <p>Let's do this!</p>
+            <div class="form-row">
+                <ul>
+                    <li>
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" name="firstName" required>
+                    </li>
+                    <li>
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" name="lastName" required>
+                    </li>
+                </ul>
+            </div>
+            <div class="form-row">
+                <ul>
+                    <li>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required>
+                    </li>
+                    <li>
+                        <label for="phone-number">Phone Number</label>
+                        <input type="tel" name="phoneNumber" id="phone-number" required>
+                    </li>
+                </ul>
+            </div>
+            <div class="form-row">
+                <ul>
+                    <li>
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" required>
+                    </li>
+                    <li>
+                        <label for="password-confirmation">Confirm Password</label>
+                        <input type="password" name="passwordConfirmation" id="password-confirmation" required>
+                    </li>
+                </ul>
+            </div>
+        </form>
+        <section>
+            <button type="submit" form="sign-up-form">Create Account</button>
+            <p>Already have an account? <a href="#">Log in</a></p>
+        </section>
+    </main>
+</body>
+
+</html>
