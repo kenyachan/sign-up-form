@@ -169,6 +169,7 @@ form input {
 
 form input:focus {
     box-shadow: 2px 5px 5px 0 rgb(220, 220, 220);
+    outline: 1px solid var(--accented-color);
 }
 
 button {
