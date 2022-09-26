@@ -112,7 +112,7 @@ section>p {
 }
 
 main>section:first-of-type {
-    padding-top: 25vh;
+    padding-top: 10%;
 }
 
 main>section:last-of-type {
