@@ -139,6 +139,7 @@ form {
     text-transform: uppercase;
     letter-spacing: .15em;
     font-weight: bold;
+    color: rgb(50, 50, 50);
 }
 
 .form-row>ul {
