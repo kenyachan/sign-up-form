@@ -112,12 +112,19 @@ section>p {
 }
 
 main>section:first-of-type {
-    padding-top: 10%;
+    height: 33vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 main>section:last-of-type {
     flex: 1 1 auto;
     font-size: 1.2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 form {
@@ -182,6 +189,7 @@ button {
     color: #ffffff;
     font-size: 1rem;
 
+    width: fit-content;
     margin-bottom: 2rem;
 }
 
