@@ -152,6 +152,7 @@ form {
 .form-row li {
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 form input {
@@ -190,4 +191,18 @@ button:active {
 
 button:hover {
     background-color: var(--accented-color2);   
+}
+
+.error {
+    outline: 1px solid red;
+}
+
+#error-message {
+    color: red;
+    font-weight: lighter;
+    text-transform: initial;
+
+    position: absolute;
+    bottom: -0.8rem;
+    visibility: hidden;
 }
