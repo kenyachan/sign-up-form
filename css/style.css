@@ -193,6 +193,12 @@ button:hover {
     background-color: var(--accented-color2);   
 }
 
+button:focus {
+    background-color: var(--accented-color2);
+    border: 1px solid white;
+    outline: 1px solid var(--accented-color2);
+}
+
 .error {
     outline: 1px solid red;
 }
